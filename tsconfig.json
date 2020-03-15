@@ -6,6 +6,7 @@
     "target": "esnext",
     "module": "esnext",
     "moduleResolution": "node",
+    "noEmit": true,
     "strict": true,
     "allowJs": true,
     "lib": ["esnext", "dom"],
@@ -31,6 +32,9 @@
     "dist",
     "__tests__",
     "jest",
-    "example"
+    "example",
+    "lib",
+    "es",
+    "scripts"
   ]
 }
