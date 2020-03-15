@@ -1,6 +1,6 @@
 {
   "name": "codeact",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "code producer",
   "keywords": [
     "code",
@@ -19,6 +19,10 @@
     "es",
     "lib"
   ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/",
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aisriver/codeact.git"
@@ -28,6 +32,7 @@
   },
   "scripts": {
     "build": "lotus-tools build",
+    "release": "git add . && node scripts/release.js && git push --follow-tags",
     "tsc": "tsc -p ./tsconfig.json",
     "commit": "git-cz",
     "eslint:fix": "eslint --fix --ext .ts,.tsx src/",
