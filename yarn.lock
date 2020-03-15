@@ -842,14 +842,6 @@
     "@babel/helper-plugin-utils" "^7.8.3"
     "@babel/plugin-transform-typescript" "^7.8.3"
 
-"@babel/runtime-corejs3@^7.8.3":
-  version "7.8.7"
-  resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/@babel/runtime-corejs3/-/runtime-corejs3-7.8.7.tgz#8209d9dff2f33aa2616cb319c83fe159ffb07b8c"
-  integrity sha1-ggnZ3/LzOqJhbLMZyD/hWf+we4w=
-  dependencies:
-    core-js-pure "^3.0.0"
-    regenerator-runtime "^0.13.4"
-
 "@babel/runtime@^7.0.0", "@babel/runtime@^7.8.4":
   version "7.8.7"
   resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/@babel/runtime/-/runtime-7.8.7.tgz#8fefce9802db54881ba59f90bb28719b4996324d"
@@ -1726,7 +1718,7 @@ array-ify@^1.0.0:
   resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/array-ify/-/array-ify-1.0.0.tgz#9e528762b4a9066ad163a6962a364418e9626ece"
   integrity sha1-nlKHYrSpBmrRY6aWKjZEGOlibs4=
 
-array-includes@^3.0.3, array-includes@^3.1.1:
+array-includes@^3.0.3:
   version "3.1.1"
   resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/array-includes/-/array-includes-3.1.1.tgz#cdd67e6852bdf9c1215460786732255ed2459348"
   integrity sha1-zdZ+aFK9+cEhVGB4ZzIlXtJFk0g=
@@ -2775,11 +2767,6 @@ core-js-compat@^3.6.2:
     browserslist "^4.8.3"
     semver "7.0.0"
 
-core-js-pure@^3.0.0:
-  version "3.6.4"
-  resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/core-js-pure/-/core-js-pure-3.6.4.tgz#4bf1ba866e25814f149d4e9aaa08c36173506e3a"
-  integrity sha1-S/G6hm4lgU8UnU6aqgjDYXNQbjo=
-
 core-js@^2.4.0, core-js@^2.5.0:
   version "2.6.11"
   resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/core-js/-/core-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
@@ -3074,13 +3061,6 @@ doctrine@1.5.0:
     esutils "^2.0.2"
     isarray "^1.0.0"
 
-doctrine@^2.1.0:
-  version "2.1.0"
-  resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/doctrine/-/doctrine-2.1.0.tgz#5cd01fc101621b42c4cd7f5d1a66243716d3f39d"
-  integrity sha1-XNAfwQFiG0LEzX9dGmYkNxbT850=
-  dependencies:
-    esutils "^2.0.2"
-
 doctrine@^3.0.0:
   version "3.0.0"
   resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/doctrine/-/doctrine-3.0.0.tgz#addebead72a6574db783639dc87a121773973961"
@@ -3313,29 +3293,6 @@ eslint-plugin-prettier@^3.1.1:
   integrity sha1-Qy5aZnZmq4TOcvlFxy932Zalybo=
   dependencies:
     prettier-linter-helpers "^1.0.0"
-
-eslint-plugin-react-hooks@^2.3.0:
-  version "2.5.0"
-  resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-2.5.0.tgz#c50ab7ca5945ce6d1cf8248d9e185c80b54171b6"
-  integrity sha1-xQq3yllFzm0c+CSNnhhcgLVBcbY=
-
-eslint-plugin-react@^7.16.0:
-  version "7.19.0"
-  resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/eslint-plugin-react/-/eslint-plugin-react-7.19.0.tgz#6d08f9673628aa69c5559d33489e855d83551666"
-  integrity sha1-bQj5ZzYoqmnFVZ0zSJ6FXYNVFmY=
-  dependencies:
-    array-includes "^3.1.1"
-    doctrine "^2.1.0"
-    has "^1.0.3"
-    jsx-ast-utils "^2.2.3"
-    object.entries "^1.1.1"
-    object.fromentries "^2.0.2"
-    object.values "^1.1.1"
-    prop-types "^15.7.2"
-    resolve "^1.15.1"
-    semver "^6.3.0"
-    string.prototype.matchall "^4.0.2"
-    xregexp "^4.3.0"
 
 eslint-scope@^5.0.0:
   version "5.0.0"
@@ -4544,15 +4501,6 @@ inquirer@^7.0.0:
     strip-ansi "^6.0.0"
     through "^2.3.6"
 
-internal-slot@^1.0.2:
-  version "1.0.2"
-  resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/internal-slot/-/internal-slot-1.0.2.tgz#9c2e9fb3cd8e5e4256c6f45fe310067fcfa378a3"
-  integrity sha1-nC6fs82OXkJWxvRf4xAGf8+jeKM=
-  dependencies:
-    es-abstract "^1.17.0-next.1"
-    has "^1.0.3"
-    side-channel "^1.0.2"
-
 interpret@^1.0.0, interpret@^1.1.0:
   version "1.2.0"
   resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/interpret/-/interpret-1.2.0.tgz#d5061a6224be58e8083985f5014d844359576296"
@@ -5412,14 +5360,6 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
-jsx-ast-utils@^2.2.3:
-  version "2.2.3"
-  resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/jsx-ast-utils/-/jsx-ast-utils-2.2.3.tgz#8a9364e402448a3ce7f14d357738310d9248054f"
-  integrity sha1-ipNk5AJEijzn8U01dzgxDZJIBU8=
-  dependencies:
-    array-includes "^3.0.3"
-    object.assign "^4.1.0"
-
 just-debounce@^1.0.0:
   version "1.0.0"
   resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/just-debounce/-/just-debounce-1.0.0.tgz#87fccfaeffc0b68cd19d55f6722943f929ea35ea"
@@ -5817,7 +5757,7 @@ longest@^2.0.1:
   resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/longest/-/longest-2.0.1.tgz#781e183296aa94f6d4d916dc335d0d17aefa23f8"
   integrity sha1-eB4YMpaqlPbU2RbcM10NF676I/g=
 
-loose-envify@^1.0.0, loose-envify@^1.4.0:
+loose-envify@^1.0.0:
   version "1.4.0"
   resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8=
@@ -6316,26 +6256,6 @@ object.defaults@^1.0.0, object.defaults@^1.1.0:
     for-own "^1.0.0"
     isobject "^3.0.0"
 
-object.entries@^1.1.1:
-  version "1.1.1"
-  resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/object.entries/-/object.entries-1.1.1.tgz#ee1cf04153de02bb093fec33683900f57ce5399b"
-  integrity sha1-7hzwQVPeArsJP+wzaDkA9XzlOZs=
-  dependencies:
-    define-properties "^1.1.3"
-    es-abstract "^1.17.0-next.1"
-    function-bind "^1.1.1"
-    has "^1.0.3"
-
-object.fromentries@^2.0.2:
-  version "2.0.2"
-  resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/object.fromentries/-/object.fromentries-2.0.2.tgz#4a09c9b9bb3843dd0f89acdb517a794d4f355ac9"
-  integrity sha1-SgnJubs4Q90PiazbUXp5TU81Wsk=
-  dependencies:
-    define-properties "^1.1.3"
-    es-abstract "^1.17.0-next.1"
-    function-bind "^1.1.1"
-    has "^1.0.3"
-
 object.getownpropertydescriptors@^2.1.0:
   version "2.1.0"
   resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/object.getownpropertydescriptors/-/object.getownpropertydescriptors-2.1.0.tgz#369bf1f9592d8ab89d712dced5cb81c7c5352649"
@@ -6367,7 +6287,7 @@ object.reduce@^1.0.0:
     for-own "^1.0.0"
     make-iterator "^1.0.0"
 
-object.values@^1.1.0, object.values@^1.1.1:
+object.values@^1.1.0:
   version "1.1.1"
   resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/object.values/-/object.values-1.1.1.tgz#68a99ecde356b7e9295a3c5e0ce31dc8c953de5e"
   integrity sha1-aKmezeNWt+kpWjxeDOMdyMlT3l4=
@@ -7007,15 +6927,6 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.4"
 
-prop-types@^15.7.2:
-  version "15.7.2"
-  resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
-  integrity sha1-UsQedbjIfnK52TYOAga5ncv/psU=
-  dependencies:
-    loose-envify "^1.4.0"
-    object-assign "^4.1.1"
-    react-is "^16.8.1"
-
 prr@~1.0.1:
   version "1.0.1"
   resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/prr/-/prr-1.0.1.tgz#d3fc114ba06995a45ec6893f484ceb1d78f5f476"
@@ -7071,7 +6982,7 @@ quick-lru@^1.0.0:
   resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/quick-lru/-/quick-lru-1.1.0.tgz#4360b17c61136ad38078397ff11416e186dcfbb8"
   integrity sha1-Q2CxfGETatOAeDl/8RQW4Ybc+7g=
 
-react-is@^16.8.1, react-is@^16.8.4:
+react-is@^16.8.4:
   version "16.13.0"
   resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/react-is/-/react-is-16.13.0.tgz#0f37c3613c34fe6b37cd7f763a0d6293ab15c527"
   integrity sha1-DzfDYTw0/ms3zX92Og1ik6sVxSc=
@@ -7271,14 +7182,6 @@ regex-not@^1.0.0, regex-not@^1.0.2:
   dependencies:
     extend-shallow "^3.0.2"
     safe-regex "^1.1.0"
-
-regexp.prototype.flags@^1.3.0:
-  version "1.3.0"
-  resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/regexp.prototype.flags/-/regexp.prototype.flags-1.3.0.tgz#7aba89b3c13a64509dabcf3ca8d9fbb9bdf5cb75"
-  integrity sha1-erqJs8E6ZFCdq888qNn7ub31y3U=
-  dependencies:
-    define-properties "^1.1.3"
-    es-abstract "^1.17.0-next.1"
 
 regexpp@^2.0.1:
   version "2.0.1"
@@ -7490,7 +7393,7 @@ resolve@1.1.7, resolve@~1.1.6:
   resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/resolve/-/resolve-1.1.7.tgz#203114d82ad2c5ed9e8e0411b3932875e889e97b"
   integrity sha1-IDEU2CrSxe2ejgQRs5ModeiJ6Xs=
 
-resolve@1.x, resolve@^1.1.6, resolve@^1.1.7, resolve@^1.10.0, resolve@^1.12.0, resolve@^1.13.1, resolve@^1.15.1, resolve@^1.3.2, resolve@^1.4.0, resolve@^1.5.0, resolve@^1.8.1:
+resolve@1.x, resolve@^1.1.6, resolve@^1.1.7, resolve@^1.10.0, resolve@^1.12.0, resolve@^1.13.1, resolve@^1.3.2, resolve@^1.4.0, resolve@^1.5.0, resolve@^1.8.1:
   version "1.15.1"
   resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/resolve/-/resolve-1.15.1.tgz#27bdcdeffeaf2d6244b95bb0f9f4b4653451f3e8"
   integrity sha1-J73N7/6vLWJEuVuw+fS0ZTRR8+g=
@@ -7737,14 +7640,6 @@ shellwords@^0.1.1:
   version "0.1.1"
   resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/shellwords/-/shellwords-0.1.1.tgz#d6b9181c1a48d397324c84871efbcfc73fc0654b"
   integrity sha1-1rkYHBpI05cyTISHHvvPxz/AZUs=
-
-side-channel@^1.0.2:
-  version "1.0.2"
-  resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/side-channel/-/side-channel-1.0.2.tgz#df5d1abadb4e4bf4af1cd8852bf132d2f7876947"
-  integrity sha1-310auttOS/SvHNiFK/Ey0veHaUc=
-  dependencies:
-    es-abstract "^1.17.0-next.1"
-    object-inspect "^1.7.0"
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
@@ -8030,18 +7925,6 @@ string-width@^4.1.0, string-width@^4.2.0:
     emoji-regex "^8.0.0"
     is-fullwidth-code-point "^3.0.0"
     strip-ansi "^6.0.0"
-
-string.prototype.matchall@^4.0.2:
-  version "4.0.2"
-  resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/string.prototype.matchall/-/string.prototype.matchall-4.0.2.tgz#48bb510326fb9fdeb6a33ceaa81a6ea04ef7648e"
-  integrity sha1-SLtRAyb7n962ozzqqBpuoE73ZI4=
-  dependencies:
-    define-properties "^1.1.3"
-    es-abstract "^1.17.0"
-    has-symbols "^1.0.1"
-    internal-slot "^1.0.2"
-    regexp.prototype.flags "^1.3.0"
-    side-channel "^1.0.2"
 
 string.prototype.trimleft@^2.1.1:
   version "2.1.1"
@@ -8896,13 +8779,6 @@ xml-name-validator@^3.0.0:
   version "3.0.0"
   resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/xml-name-validator/-/xml-name-validator-3.0.0.tgz#6ae73e06de4d8c6e47f9fb181f78d648ad457c6a"
   integrity sha1-auc+Bt5NjG5H+fsYH3jWSK1FfGo=
-
-xregexp@^4.3.0:
-  version "4.3.0"
-  resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/xregexp/-/xregexp-4.3.0.tgz#7e92e73d9174a99a59743f67a4ce879a04b5ae50"
-  integrity sha1-fpLnPZF0qZpZdD9npM6HmgS1rlA=
-  dependencies:
-    "@babel/runtime-corejs3" "^7.8.3"
 
 xtend@~4.0.0, xtend@~4.0.1:
   version "4.0.2"

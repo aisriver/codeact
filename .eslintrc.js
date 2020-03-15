@@ -3,25 +3,9 @@ module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
-    'plugin:react/recommended',
     'prettier/@typescript-eslint',
-    'prettier/react',
   ],
-  plugins: ['react-hooks'],
-  settings: {
-    react: {
-      version: 'detect',
-    },
-  },
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module',
-    jsx: true,
-    useJSXTextNode: true,
-  },
   rules: {
-    'no-unused-vars': ['error', { varsIgnorePattern: 'Taro' }],
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.tsx'] }],
     complexity: ['warn', { max: 6 }],
     'no-unused-vars': 'off',
     'no-useless-constructor': 'off',
@@ -32,11 +16,6 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/no-empty-function': 'warn',
     '@typescript-eslint/camelcase': 'off',
-    'react/prop-types': 'off',
-    'react/display-name': 'off',
-    'react/no-deprecated': 'warn',
-    'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn',
     'import/prefer-default-export': 'off',
     'import/no-commonjs': 'off',
   },
