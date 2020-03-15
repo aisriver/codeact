@@ -1,6 +1,6 @@
 {
   "name": "codeact",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "code producer",
   "keywords": [
     "code",
@@ -33,7 +33,7 @@
   "scripts": {
     "build": "lotus-tools build",
     "release": "git add . && node scripts/release.js && git push --follow-tags",
-    "tsc": "tsc -p ./tsconfig.json",
+    "tsc": "tsc -p ./tsconfig.json --noEmit",
     "commit": "git-cz",
     "eslint:fix": "eslint --fix --ext .ts,.tsx src/",
     "lint:fix": "prettier --check src/**/*.ts --write",
@@ -63,7 +63,6 @@
     ]
   },
   "dependencies": {
-    "babel-runtime": "^6.26.0",
     "colors": "^1.4.0",
     "commander": "^5.0.0"
   },
