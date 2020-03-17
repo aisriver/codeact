@@ -1,6 +1,6 @@
 #! /usr/bin/env nod
 import { exec, ExecException } from 'child_process';
-import colors, { Color } from 'colors';
+import colors from 'colors';
 import { ExecReturn, ExecOption, Config } from '../interfaces/common';
 import path from 'path';
 import fs from 'fs';
@@ -25,7 +25,7 @@ export const execPromise = (command: string, option?: ExecOption) =>
  * 日志打印
  * @param message
  */
-export const logMessage = (message: string, color: Color = colors.white, prefix = '>>>>>>') =>
+export const logMessage = (message: string, color = colors.white, prefix = '>>>>>>') =>
   console.log(color(`${prefix} ${message}`));
 
 /**

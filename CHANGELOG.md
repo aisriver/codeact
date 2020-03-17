@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [1.1.0](https://github.com/aisriver/codeact/compare/v1.0.4...v1.1.0) (2020-03-17)
+
+
+### ✨ Features
+
+* 新增从项目根目录读取/写入配置文件等功能 ([ce9aa90](https://github.com/aisriver/codeact/commit/ce9aa90)) by: **liaojun** (767882503@qq.com)
+
+
+
 ## [1.0.4](https://github.com/aisriver/codeact/compare/v1.0.3...v1.0.4) (2020-03-17)
 
 
