@@ -1,5 +1,5 @@
 #! /usr/bin/env node
-import _regeneratorRuntime from './runtime.js';
+import _regeneratorRuntime from './runtime';
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
   try {
@@ -77,7 +77,8 @@ function _arrayWithHoles(arr) {
 
 import commander from 'commander';
 import colors from 'colors';
-import { logMessage, execPromise, getConfig } from './utils/process'; // 配置
+import { logMessage, execPromise, getConfig } from './utils/process';
+import { commandConfig } from './utils/command'; // 配置
 
 var defaultConfig = {
   // code-act-service git地址
@@ -324,7 +325,9 @@ var codeAct = /*#__PURE__*/ (function() {
               // 初始化状态先删除对应的文件夹
               logMessage('\u521D\u59CB\u5316...');
               _context3.next = 14;
-              return execPromise('rm -fr '.concat(config.serviceFolderName));
+              return execPromise(
+                ''.concat(commandConfig['delete'], ' ').concat(config.serviceFolderName),
+              );
 
             case 14:
               cdServiceDirectory(config);

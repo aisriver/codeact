@@ -3,6 +3,7 @@ import commander from 'commander';
 import colors from 'colors';
 import { ExecReturn, Config } from './interfaces/common';
 import { logMessage, execPromise, getConfig } from './utils/process';
+import { commandConfig } from './utils/command';
 
 // 配置
 const defaultConfig: Config = {
@@ -109,7 +110,7 @@ const codeAct = async () => {
   if (firstCommander === 'init') {
     // 初始化状态先删除对应的文件夹
     logMessage(`初始化...`);
-    await execPromise(`rm -fr ${config.serviceFolderName}`);
+    await execPromise(`${commandConfig.delete} ${config.serviceFolderName}`);
   }
   cdServiceDirectory(config);
 };

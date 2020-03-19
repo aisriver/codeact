@@ -1,5 +1,5 @@
 #! /usr/bin/env nod
-import _regeneratorRuntime from '../runtime.js';
+import _regeneratorRuntime from '../runtime';
 
 function ownKeys(object, enumerableOnly) {
   var keys = Object.keys(object);

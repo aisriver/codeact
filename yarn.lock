@@ -2430,8 +2430,8 @@ color-support@^1.1.3:
 
 colors@^1.4.0:
   version "1.4.0"
-  resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/colors/-/colors-1.4.0.tgz#c50491479d4c1bdaed2c9ced32cf7c7dc2360f78"
-  integrity sha1-xQSRR51MG9rtLJztMs98fcI2D3g=
+  resolved "https://registry.npmjs.org/colors/-/colors-1.4.0.tgz#c50491479d4c1bdaed2c9ced32cf7c7dc2360f78"
+  integrity sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==
 
 combined-stream@^1.0.6, combined-stream@~1.0.6:
   version "1.0.8"
@@ -2452,8 +2452,8 @@ commander@^3.0.0:
 
 commander@^5.0.0:
   version "5.0.0"
-  resolved "http://nexus.thundersdata.com:30012/repository/npm-repo-group/commander/-/commander-5.0.0.tgz#dbf1909b49e5044f8fdaf0adc809f0c0722bdfd0"
-  integrity sha1-2/GQm0nlBE+P2vCtyAnwwHIr39A=
+  resolved "https://registry.npmjs.org/commander/-/commander-5.0.0.tgz#dbf1909b49e5044f8fdaf0adc809f0c0722bdfd0"
+  integrity sha512-JrDGPAKjMGSP1G0DUoaceEJ3DZgAfr/q6X7FVk4+U5KxUSKviYGM2k6zWkfyyBHy5rAtzgYJFa1ro2O9PtoxwQ==
 
 commitizen@^4.0.3:
   version "4.0.3"

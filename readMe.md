@@ -14,12 +14,12 @@ npm install -g codeact
 
 #### 命令说明
 
-| 短名字 | 长名字   | 介绍                             |
-| ------ | -------- | -------------------------------- |
-| -V     | --vision | 查看版本号                       |
-| -h     | --help   | 查看帮助文档                     |
-| -f     | --find   | 查看属性，可查询参数（gitAddress | serviceFolderName | serviceStop | serviceStart） |
-| init   |          | 重新初始化                       |
+| 短名字 | 长名字   | 介绍                                                                             |
+| ------ | -------- | -------------------------------------------------------------------------------- |
+| -V     | --vision | 查看版本号                                                                       |
+| -h     | --help   | 查看帮助文档                                                                     |
+| -f     | --find   | 查看属性，可查询参数（gitAddress、serviceFolderName、serviceStop、serviceStart） |
+| init   |          | 重新初始化                                                                       |
 
 ### 说明
 
