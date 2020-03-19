@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [1.2.0](https://github.com/aisriver/codeact/compare/v1.0.4...v1.2.0) (2020-03-19)
+
+
+### ✨ Features
+
+* 新增从项目根目录读取/写入配置文件等功能 ([ce9aa90](https://github.com/aisriver/codeact/commit/ce9aa90)) by: **liaojun** (767882503@qq.com)
+
+
+### 🐛 Bug Fixes
+
+* @babel/runtime/regenerator bug fix ([579787a](https://github.com/aisriver/codeact/commit/579787a)) by: **liaojun** (767882503@qq.com)
+* init 命令兼容windows ([2d0b487](https://github.com/aisriver/codeact/commit/2d0b487)) by: **liaojun** (767882503@qq.com)
+* 移除无用注释 ([bb03176](https://github.com/aisriver/codeact/commit/bb03176)) by: **liaojun** (767882503@qq.com)
+
+
+
 # [1.1.0](https://github.com/aisriver/codeact/compare/v1.0.4...v1.1.0) (2020-03-17)
 
 
