@@ -32,6 +32,7 @@ commander
   .parse(process.argv);
 
 const [firstCommander] = commander.args;
+const isInit = firstCommander === 'init';
 
 /**
  * 进入服务目录
@@ -45,14 +46,14 @@ const cdServiceDirectory = async (config: Config) => {
     logMessage(`未发现 ${serviceFolderName} 文件夹，开始创建`, colors.red);
     const createResult = await execPromise(`git clone ${gitAddress} ${serviceFolderName}`);
     if (createResult.error) {
-      logMessage(`创建服务遇到些问题：${createResult.error}`, colors.red);
+      logMessage(`创建服务遇到些问题😨：${createResult.error}`, colors.red);
       return;
     }
-    logMessage(`创建 ${serviceFolderName} 成功!`, colors.green);
+    logMessage(`创建 ${serviceFolderName} 成功!😀`, colors.green);
     cdServiceDirectory(config);
     return;
   }
-  logMessage(`进入 ${serviceFolderName} 成功!`, colors.green);
+  logMessage(`进入 ${serviceFolderName} 成功!😃`, colors.green);
   startService(config);
 };
 
@@ -61,18 +62,22 @@ const cdServiceDirectory = async (config: Config) => {
  */
 const startService = async (config: Config) => {
   const { serviceFolderName, serviceStop, serviceStart } = config;
-  logMessage(`更新/安装依赖，请耐心等待...`);
-  const installResult = await execPromise(`cd ${serviceFolderName} && npm install`);
+  logMessage(
+    `更新/安装依赖，请耐心等待${isInit ? '（当前为初始化状态，时间可能会长一些😊）' : '😉'}...`,
+  );
+  const installResult = await execPromise(
+    `cd ${serviceFolderName} && git stash && git pull && npm install`,
+  );
   if (installResult.error) {
-    logMessage(`更新/安装依赖遇到些问题：${installResult.error}`, colors.red);
+    logMessage(`更新/安装依赖遇到些问题😭：${installResult.error}`, colors.red);
     return;
   }
-  logMessage(`依赖安装成功！`, colors.green);
-  logMessage(`开始启动...`);
+  logMessage(`依赖安装成功！😆`, colors.green);
+  logMessage(`开始启动😇...`);
   await execPromise(`cd ${serviceFolderName} && ${serviceStop}`);
   const startResult = await execPromise(`cd ${serviceFolderName} && ${serviceStart}`);
   if (startResult.error) {
-    logMessage(`服务启动遇到些问题：${startResult.error}`, colors.red);
+    logMessage(`服务启动遇到些问题😣：${startResult.error}`, colors.red);
     return;
   }
   logMessage(`启动成功！OPEN: http://localhost:7001`, colors.green);
@@ -107,7 +112,7 @@ const codeAct = async () => {
     return;
   }
   // 初始化项目
-  if (firstCommander === 'init') {
+  if (isInit) {
     // 初始化状态先删除对应的文件夹
     logMessage(`初始化...`);
     await execPromise(`${commandConfig.delete} ${config.serviceFolderName}`);
