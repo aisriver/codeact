@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [1.3.0](https://github.com/aisriver/codeact/compare/v1.2.0...v1.3.0) (2020-03-26)
+
+
+### ✨ Features
+
+* 添加git库 更新与表情 ([96dba19](https://github.com/aisriver/codeact/commit/96dba19)) by: **liaojun** (767882503@qq.com)
+
+
+### 🐛 Bug Fixes
+
+* fix version ([c9f6787](https://github.com/aisriver/codeact/commit/c9f6787)) by: **liaojun** (767882503@qq.com)
+
+
+### 📝 Documentation
+
+* update readme ([e93a8af](https://github.com/aisriver/codeact/commit/e93a8af)) by: **liaojun** (767882503@qq.com)
+
+
+
 # [1.2.0](https://github.com/aisriver/codeact/compare/v1.0.4...v1.2.0) (2020-03-19)
 
 
